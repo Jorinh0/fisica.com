@@ -1,0 +1,75 @@
+/* Estilo Geral */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #e6f7ff; /* Azul claro */
+  color: #00264d; /* Azul escuro */
+}
+
+header {
+  background: #004080; /* Azul vibrante */
+  color: white;
+  padding: 1.5rem 0;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5rem;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 2rem;
+}
+
+section {
+  margin: 2rem 0;
+  padding: 1.5rem;
+  background: #cceeff; /* Azul suave */
+  border: 2px solid #004080;
+  border-radius: 10px;
+}
+
+section h2 {
+  color: #004080;
+}
+
+form label, form input, form button {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+button {
+  background: #004080;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #003366; /* Azul mais escuro */
+}
