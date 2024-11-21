@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Temperatura e Velocidade de Movimento</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Ciência em Movimento</h1>
+    <nav>
+      <ul>
+        <li><a href="#introducao">Introdução</a></li>
+        <li><a href="#teoria">Teoria</a></li>
+        <li><a href="#calculos">Cálculos</a></li>
+        <li><a href="#exemplos">Exemplos</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="introducao">
+      <h2>Introdução</h2>
+      <p>Bem-vindo ao site dedicado ao estudo da temperatura e da velocidade de movimento. Aqui exploramos como esses conceitos se relacionam na ciência.</p>
+    </section>
+
+    <section id="teoria">
+      <h2>Teoria</h2>
+      <p>A temperatura influencia diretamente a energia cinética das partículas, determinando sua velocidade média. Em sistemas físicos, isso é descrito pela fórmula:</p>
+      <p><strong>Energia Cinética Média:</strong> \( E_k = \frac{3}{2} k_B T \)</p>
+      <p>Onde:
+        <ul>
+          <li>\( E_k \): Energia cinética média</li>
+          <li>\( k_B \): Constante de Boltzmann (\( 1.38 \times 10^{-23} \) J/K)</li>
+          <li>\( T \): Temperatura em Kelvin</li>
+        </ul>
+      </p>
+    </section>
+
+    <section id="calculos">
+      <h2>Cálculos</h2>
+      <p>Insira a temperatura para calcular a velocidade média das partículas:</p>
+      <form id="calculo">
+        <label for="temperatura">Temperatura (K):</label>
+        <input type="number" id="temperatura" placeholder="Exemplo: 300">
+        <button type="button" onclick="calcularVelocidade()">Calcular</button>
+      </form>
+      <p id="resultado"></p>
+    </section>
+
+    <section id="exemplos">
+      <h2>Exemplos Práticos</h2>
+      <p>Veja como temperatura e velocidade se aplicam em fenômenos cotidianos, como o comportamento do gás em diferentes pressões.</p>
+    </section>
+  </main>
+
+  <footer id="contato">
+    <h2>Contato</h2>
+    <p>Email: movimento.estudantil@hotmail.com</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
